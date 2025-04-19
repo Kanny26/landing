@@ -1,0 +1,127 @@
+/* Estilo general del cuerpo */
+body {
+    margin: 2px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 200;
+    background-color: rgb(235, 245, 251); /* Fondo azul claro */
+    color: rgba(0, 0, 0, 0.79); /* Texto gris oscuro */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: rgb(235, 245, 251);
+    padding: 20px 0;
+}
+
+/* Contenedor de la barra de navegación */
+.Navegacion {
+    max-width: 1200px;
+    margin: 4px auto;
+    text-align: center;
+}
+
+/* Sección del logo */
+.Logo {
+    margin-right: 310px; /* Separación hacia la derecha */
+    display: inline-block;
+}
+
+/* Imagen del logo */
+.Logo img {
+    height: 30px;
+    width: auto;
+}
+
+/* Texto junto al logo */
+.Logo h3 {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Contenedor de enlaces de navegación */
+.principal {
+    padding-left: 50px;
+    display: inline-block;
+}
+
+/* Enlaces del menú */
+.principal a {
+    text-decoration: none;
+    color: #717171;
+    margin-left: 20px;
+    font-size: small;
+    line-height: 35px;
+}
+
+/* Botón "Sign up" */
+.principal button {
+    background-color: rgb(96, 209, 255);
+    color: #717171;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    margin-left: 20px;
+}
+
+/* Sección principal del contenido */
+.info {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+/* Contenedor del texto (izquierda) */
+.contenedor {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+
+/* Título principal */
+.contenedor h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 100px;
+    padding: 20px;
+    line-height: 1.2;
+    color: rgba(33, 33, 33, 0.951);
+}
+
+/* Párrafo de introducción */
+.contenedor p {
+    font-size: 15px;
+    color: rgba(113, 113, 113, 0.841);
+    margin: 10px 120px;
+}
+
+/* Botón de llamada a la acción */
+.button {
+    display: inline-block;
+    background-color: rgb(79, 180, 220);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 45px 120px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Contenedor de imagen (derecha) */
+.impulsador {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Imagen ilustrativa */
+.impulsador img {
+    max-width: 80%;
+    border-radius: 15px;
+    padding: 5px;
+}
