@@ -23,13 +23,16 @@ header {
 
 /* Sección del logo */
 .Logo {
-    margin-right: 310px; /* Separación hacia la derecha */
     display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    margin-right: 50px;
 }
 
 /* Imagen del logo */
 .Logo img {
-    height: 30px;
+    height: auto;
+    max-height: 40px;
     width: auto;
 }
 
@@ -43,8 +46,9 @@ header {
 
 /* Contenedor de enlaces de navegación */
 .principal {
-    padding-left: 50px;
     display: inline-block;
+    vertical-align: middle;
+    text-align: left;
 }
 
 /* Enlaces del menú */
@@ -79,8 +83,8 @@ header {
 /* Contenedor del texto (izquierda) */
 .contenedor {
     width: 50%;
-    text-align: left;
     float: left;
+    text-align: left;
 }
 
 /* Título principal */
@@ -115,13 +119,51 @@ header {
 /* Contenedor de imagen (derecha) */
 .impulsador {
     width: 50%;
-    display: inline-block;
+    float: left;
     text-align: center;
 }
 
 /* Imagen ilustrativa */
 .impulsador img {
     max-width: 80%;
+    height: auto;
     border-radius: 15px;
     padding: 5px;
+}
+
+/* ------------------------ */
+/* Responsividad sin flex o grid */
+@media screen and (max-width: 768px) {
+    .Logo,
+    .principal {
+        display: block;
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .principal a,
+    .principal button {
+        display: inline-block;
+        margin: 10px 5px;
+    }
+
+    .contenedor,
+    .impulsador {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .contenedor h1,
+    .contenedor p,
+    .button {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .impulsador img {
+        max-width: 90%;
+        margin: 20px 0;
+    }
 }
